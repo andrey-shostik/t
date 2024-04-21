@@ -1,0 +1,26 @@
+{
+  "name": "app-info-package",
+  "version": "0.0.17",
+  "description": "App info",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrey-shostik/t.git"
+  },
+  "author": "Author",
+  "license": "MIT",
+  "homepage": "https://github.com/andrey-shostik/t",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "AppInfoModuleSpec",
+    "type": "modules",
+    "jsSrcsDir": "src",
+    "android": {
+      "javaPackageName": "com.appinfopackage"
+    }
+  }
+}

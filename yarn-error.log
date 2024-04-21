@@ -1,0 +1,72 @@
+Arguments: 
+  /Users/andrii/.nvm/versions/node/v20.9.0/bin/node /Users/andrii/.nvm/versions/node/v20.9.0/bin/yarn add app-info-package
+
+PATH: 
+  /Users/andrii/.rvm/gems/ruby-2.7.6/bin:/Users/andrii/.rvm/gems/ruby-2.7.6@global/bin:/Users/andrii/.rvm/rubies/ruby-2.7.6/bin:/Users/andrii/development/flutter/bin:/Users/andrii/.bun/bin:/opt/homebrew/opt/postgresql@15/bin:/opt/homebrew/sbin:/opt/homebrew/bin:/Users/andrii/.nvm/versions/node/v20.9.0/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/andrii/dev/BridgingApp/node_modules/.bin:/Users/andrii/Library/Application Support/JetBrains/Toolbox/scripts:/Users/andrii/Library/Android/sdk/emulator:/Users/andrii/Library/Android/sdk/platform-tools:/Users/andrii/Library/Android/sdk/cmdline-tools/10.0/bin:/Users/andrii/.rvm/bin:/Users/andrii/.fzf/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.9.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/app-info-package: Not found
+      at params.callback [as _callback] (/Users/andrii/.nvm/versions/node/v20.9.0/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/Users/andrii/.nvm/versions/node/v20.9.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:514:28)
+      at Request.<anonymous> (/Users/andrii/.nvm/versions/node/v20.9.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:514:28)
+      at IncomingMessage.<anonymous> (/Users/andrii/.nvm/versions/node/v20.9.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:628:28)
+      at IncomingMessage.emit (node:events:526:35)
+      at endReadableNT (node:internal/streams/readable:1408:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "private": true,
+    "name": "app-info-package",
+    "version": "0.0.1",
+    "description": "My awesome package",
+    "react-native": "src",
+    "source": "src",
+    "main": "src",
+    "module": "src",
+    "files": [
+      "src",
+      "android",
+      "ios",
+      "AppInfoPackage.podspec",
+      "!android/build",
+      "!ios/build",
+      "!**/__tests__",
+      "!**/__fixtures__",
+      "!**/__mocks__"
+    ],
+    "repository": "<repository-url>",
+    "author": "<author>",
+    "license": "MIT",
+    "homepage": "<homepage-url>",
+    "peerDependencies": {
+      "react": "*",
+      "react-native": "*"
+    },
+    "codegenConfig": {
+      "name": "AppInfoPackage",
+      "type": "all",
+      "jsSrcsDir": "src",
+      "android": {
+        "javaPackageName": "com.appinfopackage"
+      }
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
